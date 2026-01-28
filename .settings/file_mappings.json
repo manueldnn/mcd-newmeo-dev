@@ -48,6 +48,17 @@
       "GlobalId": "939de918-1cd0-4ad9-a74e-44eedd8f46cc",
       "TabPath": "//test",
       "ContentPath": "Pages/test/tab.xml"
+    },
+    {
+      "GlobalId": "b0f90a8e-4a78-4939-88f2-22be8f25ab1b",
+      "ParentPageGlobalId": "ec981454-2ee3-423b-9ac4-0d41460db8ab",
+      "TabPath": "//tests//Detail",
+      "ContentPath": "Pages/tests/Detail/tab.xml"
+    },
+    {
+      "GlobalId": "ec981454-2ee3-423b-9ac4-0d41460db8ab",
+      "TabPath": "//tests",
+      "ContentPath": "Pages/tests/tab.xml"
     }
   ],
   "Modules": [
@@ -149,6 +160,69 @@
       "PaneName": "ContentPane",
       "Order": 1,
       "ContentPath": "Pages/test/Enter Title.xml"
+    },
+    {
+      "GlobalId": "aef004c4-dfed-4061-bed3-a5c6ac2ad8b3",
+      "ParentPageId": "ec981454-2ee3-423b-9ac4-0d41460db8ab",
+      "ModuleTitle": "Header",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/tests/Header.xml"
+    },
+    {
+      "GlobalId": "e8bf35f7-fe49-4afd-95d3-fc131fbcd189",
+      "ParentPageId": "ec981454-2ee3-423b-9ac4-0d41460db8ab",
+      "ModuleTitle": "tests Listing",
+      "FriendlyName": "avt.ActionGrid",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/tests/tests Listing.xml"
+    },
+    {
+      "GlobalId": "21a962c0-4afd-4f55-802b-41f38082c7be",
+      "ParentPageId": "ec981454-2ee3-423b-9ac4-0d41460db8ab",
+      "ModuleTitle": "test Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/tests/test Form.xml"
+    },
+    {
+      "GlobalId": "fae21cde-7b6b-45fe-9713-2d19130641e1",
+      "ParentPageId": "b0f90a8e-4a78-4939-88f2-22be8f25ab1b",
+      "ModuleTitle": "Header Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/tests/Detail/Header Form.xml"
+    },
+    {
+      "GlobalId": "95675356-b543-488d-9456-24f2f8a5a21d",
+      "ParentPageId": "b0f90a8e-4a78-4939-88f2-22be8f25ab1b",
+      "ModuleTitle": "Details Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/tests/Detail/Details Form.xml"
+    },
+    {
+      "GlobalId": "204f2e03-2202-443b-9302-024095f0fed8",
+      "ParentPageId": "b0f90a8e-4a78-4939-88f2-22be8f25ab1b",
+      "ModuleTitle": "test Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/tests/Detail/test Form.xml"
+    },
+    {
+      "GlobalId": "8c5a5d9b-d8d5-4a4f-9bd6-5fbd51b28730",
+      "ParentPageId": "b0f90a8e-4a78-4939-88f2-22be8f25ab1b",
+      "ModuleTitle": "Tabs",
+      "FriendlyName": "avt.TabsPro",
+      "PaneName": "ContentPane",
+      "Order": 7,
+      "ContentPath": "Pages/tests/Detail/Tabs.xml"
     }
   ],
   "TokenNamespaces": [
@@ -352,7 +426,13 @@
       "ContentPath": "Entities/System/Images.json"
     }
   ],
-  "Entities": [],
+  "Entities": [
+    {
+      "GlobalId": "35aeab98-f398-46ec-80f6-b67a8d82c05b",
+      "NamespaceGlobalId": "55cdd20d-6240-47ad-b061-5366f1942d83",
+      "ContentPath": "Entities/Default/test.json"
+    }
+  ],
   "ApiMethods": [],
   "Roles": [],
   "SchedulerJobs": [],
