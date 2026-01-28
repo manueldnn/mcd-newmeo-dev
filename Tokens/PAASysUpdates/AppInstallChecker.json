@@ -1,0 +1,26 @@
+{
+  "globalId": "73694d11-f06e-423f-bd97-43ba49369c43",
+  "namespace": {
+    "globalId": "66845181-6584-4d64-9036-15e88f3236ab",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "AppInstallChecker",
+  "description": "",
+  "defaultValue": "",
+  "cacheTimeSec": 0,
+  "cacheLayer": "global",
+  "replaceTokens": false,
+  "decodeHtml": false,
+  "stripHtmlTags": false,
+  "src": {
+    "type": "razor",
+    "compiledRazorLocation": "host",
+    "assemblies": "",
+    "debugScript": false,
+    "lang": "csharp",
+    "language": "csharp",
+    "params": []
+  }
+}

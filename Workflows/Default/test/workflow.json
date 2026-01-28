@@ -1,0 +1,27 @@
+{
+  "InputFields": [],
+  "OutputFields": [],
+  "Id": 7,
+  "GlobalId": "38c53f81-cd8e-475b-8e6a-600ec9199635",
+  "ContractId": null,
+  "ConfigGenerationGlobalId": "38c53f81-cd8e-475b-8e6a-600ec9199635",
+  "EnvironmentId": 1,
+  "Name": "test",
+  "Description": "",
+  "IsDebug": false,
+  "IsSystem": false,
+  "ActionList": {
+    "Id": 0,
+    "GlobalId": "00000000-0000-0000-0000-000000000000",
+    "Actions": [],
+    "IsInvalid": false
+  },
+  "ActionStackId": 0,
+  "CreatedBy": 1,
+  "CreatedOn": "2026-01-28T12:39:09.3909636+00:00",
+  "LastModifiedBy": 1,
+  "LastModifiedOn": "2026-01-28T12:39:09.3909636+00:00",
+  "DiagramXML": null,
+  "IsCorrupted": false,
+  "NamespaceUid": "8098259e-211f-491a-b2c3-4f12861210ad"
+}
